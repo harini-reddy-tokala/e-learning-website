@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #18bc9c;
+        }
+        .auth a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .auth a:hover {
+            background-color: #18bc9c;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        #contact {
+            padding: 50px 0;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        .contact-details {
+            flex: 1;
+            text-align: left;
+        }
+        .contact-details h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .contact-details p {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+        .contact-form {
+            flex: 1;
+            text-align: left;
+        }
+        .contact-form label {
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            display: block;
+        }
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 1.1em;
+        }
+        .contact-form textarea {
+            resize: vertical;
+        }
+        .contact-form button {
+            background-color: #18bc9c;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #128c7e;
+        }
+        .map {
+            margin-bottom: 50px;
+        }
+        .map h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .faq {
+            text-align: left;
+        }
+        .faq h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .faq-item h4 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .faq-item p {
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <a href="login.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+</header>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Have a question or need assistance? Feel free to reach out to us. We're here to help!</p>
+        
+        <div class="contact-info">
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <p><i class="fas fa-phone-alt"></i> Phone: (123) 456-7890</p>
+                <p><i class="fas fa-envelope"></i> Email: support@elearningplatform.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: 123 E-Learning St, Education City, ED 12345</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit" class="cta-button">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="map">
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9127423424!2d-122.084249!3d37.4220659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5b9df1f1f29%3A0x81a90a304d9f7d8b!2sGoogleplex!5e0!3m2!1sen!2sus!4v1636167413184!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+        <div class="faq">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-item">
+                <h4>How do I sign up for a course?</h4>
+                <p>You can sign up for a course by visiting our <a href="courses.html">Courses</a> page and selecting the course you're interested in. Follow the instructions to complete the registration.</p>
+            </div>
+            <div class="faq-item">
+                <h4>What payment methods do you accept?</h4>
+                <p>We accept various payment methods including credit/debit cards, PayPal, and bank transfers.</p>
+            </div>
+            <div class="faq-item">
+                <h4>How can I contact support?</h4>
+                <p>You can contact our support team via email at support@elearningplatform.com or by phone at (123) 456-7890.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <h1>E-Learning Platform</h1>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

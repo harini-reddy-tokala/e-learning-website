@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styling to enhance the page appearance */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        header, footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header h1, footer h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a, .auth a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav ul li a:hover, .auth a:hover {
+            color: #18bc9c;
+        }
+        .auth {
+            display: flex;
+        }
+        .auth a {
+            margin-left: 15px;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+        #hero {
+            background: url('hero-bg.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        #hero h2, #hero p {
+            color: #000; /* Changed text color to black */
+        }
+        #hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        #hero p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        #hero .cta-button {
+            background-color: #18bc9c;
+            color: #fff;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        #hero .cta-button:hover {
+            background-color: #15a285;
+        }
+        #features {
+            padding: 60px 20px;
+            background-color: #ecf0f1;
+            text-align: center;
+        }
+        #features h2 {
+            font-size: 2.2em;
+            margin-bottom: 40px;
+        }
+        .feature {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .feature i {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #18bc9c;
+        }
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        footer .footer-nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        footer .footer-nav ul li {
+            margin-left: 20px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            font-size: 1.5em;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #18bc9c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <a href="login.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+</header>
+
+<section id="hero">
+    <div class="container">
+        <h2>Learn Anything, Anytime, Anywhere</h2>
+        <p>Join thousands of learners around the world in our interactive online courses.</p>
+        <a href="courses.html" class="cta-button">Get Started</a>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <h2>Key Features</h2>
+        <div class="feature">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Expert Instructors</h3>
+            <p>Learn from industry experts and professionals.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-laptop"></i>
+            <h3>Online Learning Platform</h3>
+            <p>Access courses from anywhere, anytime, at your own pace.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-certificate"></i>
+            <h3>Certification</h3>
+            <p>Earn certificates upon course completion to showcase your skills.</p>
+        </div>
+        <!-- Add more features here -->
+        <div class="feature">
+            <i class="fas fa-headphones-alt"></i>
+            <h3>24/7 Support</h3>
+            <p>Get assistance and support whenever you need it.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-users"></i>
+            <h3>Community</h3>
+            <p>Connect with fellow learners and share your learning journey.</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-clock"></i>
+            <h3>Flexible Schedule</h3>
+            <p>Learn at your own pace with courses designed to fit your schedule.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <h1>E-Learning Platform</h1>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <!-- Add more social media icons here -->
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Website - Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Additional styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #18bc9c;
+        }
+        .auth a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .auth a:hover {
+            background-color: #18bc9c;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        #blog {
+            padding: 50px 0;
+            text-align: center;
+        }
+        h2 {
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+        .blog-post {
+            margin-bottom: 50px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .blog-post p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background-color: #18bc9c;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #128c7e;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 0;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icon {
+            color: #fff;
+            font-size: 1.5em;
+            margin-right: 10px;
+            transition: color 0.3s;
+        }
+        .social-icon:hover {
+            color: #18bc9c;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>E-Learning Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="auth">
+            <a href="login.html">Sign In</a>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+</header>
+
+<section id="blog">
+    <div class="container">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>Top 10 Programming Languages in 2024</h3>
+            <p>Stay updated with the latest trends in programming languages and find out which languages are in high demand in 2024.</p>
+            <a href="#" class="cta-button">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>How to Balance Work and Study</h3>
+            <p>Learn effective strategies for balancing your work and study commitments without burning out.</p>
+            <a href="#" class="cta-button">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>The Future of Online Education</h3>
+            <p>Explore how online education is evolving and what the future holds for e-learning platforms.</p>
+            <a href="#" class="cta-button">Read More</a>
+        </div>
+        <div class="blog-post">
+            <h3>5 Tips for Successful Remote Learning</h3>
+            <p>Discover practical tips to enhance your remote learning experience and stay productive.</p>
+            <a href="#" class="cta-button">Read More</a>
+        </div>
+        <!-- Add more blog posts here -->
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-logo">
+            <h1>E-Learning Platform</h1>
+        </div>
+        <div class="footer-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <a href="https://www.facebook.com" class="social-icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.twitter.com" class="social-icon" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
